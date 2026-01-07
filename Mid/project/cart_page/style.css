@@ -1,0 +1,28 @@
+* { font-family: sans-serif; }
+
+.logo { display: flex; }
+.logoText { color: #00acd4; }
+.navLink { display: flex; color: #EC009B; text-decoration: none; gap: 5px; }
+.logoArea { display: flex; justify-content: space-evenly; align-items: center; }
+.logoArea input { border-radius: 5px; border: 1px solid #6d7482; color: #858D9E; padding: 20px; width: 320px; }
+.searchBtn { background-color: #EC009B; color: white; padding: 12px; border-radius: 5px; border: none; }
+.pink { background-color: #fde6f4; height: 40px; margin: 0; padding: 5px; display: flex; align-items: center; gap: 16px; justify-content: flex-end; padding-right: 50px; }
+.footer { display: flex; align-items: flex-start; justify-content: space-evenly; padding: 40px; }
+.copyright { border-top: 1px solid #858D9E; display: flex; align-items: center; justify-content: center; width: 80%; margin: auto; }
+.titleFooter { font-size: large; color: black; }
+.followLink { color: #EC009B; text-decoration: none; font-size: xx-large; }
+.about { display: flex; align-items: center; gap: 3px; }
+.aref { display: flex; flex-direction: column; text-decoration: none; color: #6d7482; gap: 6px; }
+.aref a { text-decoration: none; color: #6d7482; }
+
+/* --- CART PAGE STYLING --- */
+h1 { text-align: center; color: #EC009B; margin-top: 20px; }
+.cartBox { max-width: 900px; margin: auto; background: #fde6f4; padding: 20px; border-radius: 10px; }
+.cart-item { display: flex; justify-content: space-between; align-items: center; background: white; padding: 15px; border-radius: 10px; margin-bottom: 15px; border: 1px solid #EC009B44; }
+.item-info { display: flex; align-items: center; gap: 15px; }
+.item-info img { width: 80px; height: 80px; border-radius: 10px; }
+.item-title { font-size: 18px; font-weight: bold; color: #EC009B; }
+.qty-btn { background: #EC009B; color: white; border: none; padding: 6px 12px; border-radius: 5px; cursor: pointer; }
+.remove-btn { background: #EC009B; color: white; border: none; padding: 8px 12px; border-radius: 5px; cursor: pointer; }
+.total { text-align: right; font-size: 22px; color: #EC009B; font-weight: bold; margin-top: 15px; }
+.checkout-btn { width: 100%; background: #EC009B; color: white; border: none; padding: 15px; font-size: 18px; border-radius: 10px; margin-top: 15px; cursor: pointer; }
